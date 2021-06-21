@@ -1,0 +1,8 @@
+.menuBar {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex: 0.1;
+ height: 85vh;
+ overflow-y: scroll;
+}

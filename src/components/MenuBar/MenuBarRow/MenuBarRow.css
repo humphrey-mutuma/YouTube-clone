@@ -1,0 +1,18 @@
+.menuBarRow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+.menuBarRow:hover{
+  background-color: var(--bgColor);
+}
+.menuBarRow:hover .menuBarRow__icon--icon, .menuBarRow__icon--avatar {
+  color: var(--color);
+}
+.menuBarRow__icons {
+  padding-left: 5px !important;
+}
+.menuBarRow__icon--icon, .menuBarRow__icon--avatar {
+  padding-left: 5px;
+}
