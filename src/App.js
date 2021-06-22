@@ -7,10 +7,16 @@ import RecommendedVideos from "./components/RecommendedVideos/RecommendedVideos"
 function App() {
   return (
     <div className="app">
-      <Header />
+      <header className="app__header">
+        <Header />
+      </header>
       <main className="app_body">
-        <MenuBar />
-        <RecommendedVideos />
+        <section className="app__body--menubar">
+          <MenuBar />
+        </section>
+        <section className="app__body--recommendedVideos">
+          <RecommendedVideos />
+        </section>
       </main>
     </div>
   );

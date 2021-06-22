@@ -1,8 +1,38 @@
 .menuBar {
  display: flex;
  flex-direction: column;
- align-items: center;
- flex: 0.1;
- height: 85vh;
+ align-items: flex-start;
+ height: 95vh;
+}
+.menuBar:hover{
  overflow-y: scroll;
+ overflow-x: hidden;
+}
+
+.menuBar hr { 
+  width: 95%;
+  border-top: 1px solid #80808044;
+  margin: 0.5em 0 ;
+}
+.menuBar > h4, .menuBar > p {
+  margin-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  color: gray;
+}
+.menuBar__links {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.menuBar__links span {
+  padding: 1px 5px;
+  font-weight: 500;
+  color: grey;
+  font-size: smaller;
+}
+.menuBar__links span:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

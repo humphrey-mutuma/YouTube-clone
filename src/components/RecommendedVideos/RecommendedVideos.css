@@ -1,0 +1,4 @@
+.recommendedVideos {
+  min-height: 120vh;
+  background-color: var(--bgColor);
+}

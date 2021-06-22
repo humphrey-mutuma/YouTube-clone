@@ -3,7 +3,7 @@ import "./RecommendedVideos.css";
 
 const RecommendedVideos = () => {
   return (
-    <div>
+    <div className="recommendedVideos">
       <p>RecommendedVideos</p>
     </div>
   );

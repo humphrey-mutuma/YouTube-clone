@@ -1,18 +1,28 @@
 .menuBarRow{
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 5px 10px;
+  justify-content: start;
+  width: 95%;
+  border-radius: 0 2px 2px 0;
 }
 .menuBarRow:hover{
   background-color: var(--bgColor);
+  cursor: pointer;
 }
-.menuBarRow:hover .menuBarRow__icon--icon, .menuBarRow__icon--avatar {
-  color: var(--color);
+.menuBarRow__iconButton{
+  background: transparent !important;
 }
-.menuBarRow__icons {
-  padding-left: 5px !important;
+.menuBarRow > span {
+  padding-left: 1rem;
 }
-.menuBarRow__icon--icon, .menuBarRow__icon--avatar {
-  padding-left: 5px;
+.menuBarRow__icons{
+  height: 6.5vh;
+  display: flex;
+  align-items: center;
+}
+.menuBarRow__icon--avatar{
+  width: 30px !important;
+  height: 30px !important;
+  margin-left: 0.5rem;
+  padding: 0;
 }

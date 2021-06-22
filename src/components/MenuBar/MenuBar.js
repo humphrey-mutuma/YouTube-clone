@@ -72,7 +72,7 @@ const MenuBar = () => {
       <MenuBarRow Icon={HelpIcon} title="Help" />
       <MenuBarRow Icon={FeedbackIcon} title="Send feedback" />
       <hr />
-      <p>
+      <p className="menuBar__links">
         <span>About</span>
         <span>Press</span>
         <span>Copyright</span>
@@ -86,9 +86,12 @@ const MenuBar = () => {
         <span>Policy Safety</span>
         <span>How Youtube works</span>
         <span>Test new features</span>
-        <br />
+        <br /> <br />
         <span>&copy;2021 Google LLC</span>
       </p>
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

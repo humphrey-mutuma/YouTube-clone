@@ -2,3 +2,29 @@ body{
   --color: #FF0000;
   --bgColor: #f8f8f8;
 }
+.app__header{
+  position: sticky !important;
+  top:  0 !important;
+  z-index: 99 !important;
+}
+.app_body{
+  display: flex;
+}
+.app__body--menubar{
+  position: fixed;
+  left: 0;
+  width: 17%;
+}
+.app__body--recommendedVideos {
+  flex: 83%;
+  margin-left: 17%;
+}
+/* scroll bars  */
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+/* Optional: show position indicator in gray */
+::-webkit-scrollbar-thumb {
+  background: #80808075 !important;
+  border-radius: 2rem !important;
+}
