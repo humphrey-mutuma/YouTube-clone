@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MenuBar.css";
 import MenuBarRow from "./MenuBarRow/MenuBarRow";
 
@@ -19,9 +19,11 @@ import HelpIcon from "@material-ui/icons/Help";
 import LiveTvIcon from "@material-ui/icons/LiveTv";
 
 const MenuBar = () => {
+  const [isSelected, setIsSelected] = useState(false);
+
   return (
     <div className="menuBar">
-      <MenuBarRow Icon={HomeIcon} title="Home" />
+      <MenuBarRow isSelected Icon={HomeIcon} title="Home" />
       <MenuBarRow Icon={ExploreIcon} title="Explore" />
       <MenuBarRow Icon={SubscriptionsIcon} title="Subscription" />
       <hr />

@@ -6,7 +6,7 @@
   border-radius: 0 2px 2px 0;
 }
 .menuBarRow:hover{
-  background-color: var(--bgColor);
+  background-color: #80808017;
   cursor: pointer;
 }
 .menuBarRow__iconButton{
@@ -25,4 +25,11 @@
   height: 30px !important;
   margin-left: 0.5rem;
   padding: 0;
+}
+/* isSelected icon */
+.isSelected, .isSelected:hover{
+  background-color: #80808044;
+}
+.isSelectedIcon{
+  color: red !important;
 }
