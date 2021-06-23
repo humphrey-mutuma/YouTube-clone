@@ -23,13 +23,6 @@
     height: 0;
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
-.recommendedVideos__header > span{
-  min-width: fit-content;
-}
 .KeyboardArrowLeftIcon {
   position: sticky !important;
   left: 0;
