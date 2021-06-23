@@ -1,0 +1,31 @@
+.videosCard {
+  min-width: 225px;
+  width: 18vw;
+  max-height: 40vh;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.videosCard:hover{
+  cursor: pointer;
+}
+.videosCard__thumbnail img{
+  width: 100%;
+}
+.videosCard__main {
+  display: flex;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.videosCardMain__contents{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.videosCardMain__contents > h4{
+  font-weight: 400;
+}
+.videosCardMain__contents > p,.videosCardMain__contents--username{
+  color: gray;
+  font-size: 15px;
+    margin-top: 3px;
+
+}

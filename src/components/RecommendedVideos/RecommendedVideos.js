@@ -4,6 +4,8 @@ import RecommendedVideosShortcut from "./RecommendedVideosShortcut/RecommendedVi
 import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
 import IconButton from "@material-ui/core/IconButton";
+import VideosCard from "./VideosCard/VideosCard";
+
 const RecommendedVideos = () => {
   return (
     <main className="recommendedVideos">
@@ -37,7 +39,89 @@ const RecommendedVideos = () => {
         </IconButton>
       </header>
       {/* them videos */}
-      <section className="recommendedVideos__videos"></section>
+      <section className="recommendedVideos__videos">
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+        <VideosCard
+          thumbnail="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          title="Why you can't code. (4 Inconvenient Truths)"
+          src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351__340.jpg"
+          username="Clever Programmer"
+          isApproved={true}
+          views="252K"
+          timestamp="9 hours"
+        />
+      </section>
     </main>
   );
 };

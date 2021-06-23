@@ -27,8 +27,18 @@
   position: sticky !important;
   left: 0;
   background-color: white !important;
-}.KeyboardArrowRightIcon {
+}
+.KeyboardArrowRightIcon {
   position: sticky !important;
   right: 0;
-    background-color: white !important;
+  background-color: white !important;
+}
+/* recommendedVideos__videos */
+.recommendedVideos__videos{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  
 }
