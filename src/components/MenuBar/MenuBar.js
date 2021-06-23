@@ -19,7 +19,6 @@ import HelpIcon from "@material-ui/icons/Help";
 import LiveTvIcon from "@material-ui/icons/LiveTv";
 
 const MenuBar = () => {
-  const [isSelected, setIsSelected] = useState(false);
 
   return (
     <div className="menuBar">

@@ -16,7 +16,7 @@ const MenuBarRow = ({ isSelected, Icon, src, title, name }) => {
             />
           </IconButton>
         )}
-        {src && <Avatar className="menuBarRow__icon--avatar" />}
+        {src && <Avatar src={src} className="menuBarRow__icon--avatar" />}
       </span>
       <span className=" menuBarRow__title">
         {title && title}

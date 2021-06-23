@@ -16,7 +16,7 @@ body{
   width: 17%;
 }
 .app__body--recommendedVideos {
-  flex: 83%;
+  width: 83%;
   margin-left: 17%;
 }
 /* scroll bars  */
