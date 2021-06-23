@@ -35,19 +35,19 @@ const MenuBar = () => {
       <h4>SUBSCRIPTIONS</h4>
       <MenuBarRow
         src={`https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 50)}`}
-        name="John peter"
+        name="Traversy Media"
       />
       <MenuBarRow
         src={`https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 50)}`}
-        name="John peter"
+        name="Sonny Sangha"
       />{" "}
       <MenuBarRow
         src={`https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 50)}`}
-        name="John peter "
+        name="Clever Programmer "
       />
       <MenuBarRow
         src={`https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 50)}`}
-        name="John peter "
+        name="Leo Messi "
       />
       <MenuBarRow
         src={`https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 50)}`}

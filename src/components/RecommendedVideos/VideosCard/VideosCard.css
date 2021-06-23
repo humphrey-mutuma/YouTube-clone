@@ -5,11 +5,9 @@
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-.videosCard:hover{
-  cursor: pointer;
-}
 .videosCard__thumbnail img{
   width: 100%;
+  height: 25vh;
 }
 .videosCard__main {
   display: flex;
@@ -20,12 +18,54 @@
   margin-left: 10px;
   margin-right: 5px;
 }
+.videosCardMain__contents > .crop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
 .videosCardMain__contents > h4{
   font-weight: 400;
+}
+.videosCardMain__contents--username {
+  display: flex;
+  align-items: center;
 }
 .videosCardMain__contents > p,.videosCardMain__contents--username{
   color: gray;
   font-size: 15px;
-    margin-top: 3px;
-
+  margin-top: 3px;
+}
+/* isApproved__icon */
+.isApproved__icon{
+  width: 15px !important;
+  align-self: center;
+  margin-left: 0.5rem;
+}
+/* .videosCard__thumbnail > span {
+  position: relative ;
+  right: -15.5vw;
+  top: 10vh;
+  background-color: black;
+  padding: 2px;
+  display: grid;
+  place-items: center;
+  width: fit-content;
+  margin: 2px;
+  border-radius: 2px;
+  z-index: 9;
+  display: none;
+} */
+.thumbnail__icon{
+  color: white !important;
+  width: 20px !important;
+}
+/* initially hidden  */
+.videosCard:hover{
+  cursor: pointer;
+}
+.MoreVertIcon__icon {
+  visibility: hidden !important;
+}
+.videosCard:hover .MoreVertIcon__icon {
+  visibility: visible !important;
 }
